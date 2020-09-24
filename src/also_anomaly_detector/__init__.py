@@ -7,8 +7,7 @@ try:
     __version__ = get_distribution(dist_name).version
 
     # imports
-    from . import exps
-    from .exps import *
+    from .AlsoAnomalyDetector import AlsoAnomalyDetector
     
 except DistributionNotFound:
     __version__ = "unknown"
