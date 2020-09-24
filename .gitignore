@@ -1,0 +1,50 @@
+# Ignore out/tmp directories
+tmp/
+**/tmp/
+
+out/
+**/out/
+
+# Python
+__pycache__/
+**/__pycache__
+**/__pycache__/
+
+# iPython Notebooks
+**/.ipynb_checkpoints
+**/.ipynb_checkpoints/
+
+# IDEs
+
+## From pycharm
+.idea/
+.ipynb_checkpoints/
+**/.idea
+
+## VSCODE
+.vscode/
+*/.vscode/*
+
+# Packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Sphinx documentation
+docs/_build/
